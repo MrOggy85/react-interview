@@ -4,7 +4,7 @@ import Movies from '../../movies/Movies/Movies';
 import './App.css';
 
 function App() {
-  const [title, setTitle] = useState('React Movie Cards');
+  const [title] = useState('React Movie Cards');
 
   return (
     <div className="App">
